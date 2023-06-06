@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg{
+    background-image: url("../images/bg1.jpg");
+    height: 17vw;
+    min-height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg img{
+    width: fit-content;
+    height:fit-content;
+}
+header{
+    background-color: #ff6e1a;
+}
+nav{
+    display: flex;
+    background-color: black;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+#home p span{
+    font-weight: bolder;
+}
+#bold{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+main{
+    background-color: rgb(230, 93, 8);
+    text-align: center;
+}
+h2{
+    padding: 20px;
+}
+section:nth-last-child(even){
+    background-color: coral;
+}
+section{
+    min-height: 50vh;
+    border: 5px red solid;
+}
+#home section{
+    min-height:30vh;
+}
+section h2{
+    background-color: rgba(253, 222, 18, 0.941);
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 5px 5px;
+}
+.container1 h3{
+   color: rgb(104, 1, 1);
+   background: #ddd;
+}
+hr{
+    color:black;
+    size: 5px;
+}
+    
+iframe{
+    height: 75vh;
+}
+.bt{
+    background-color: #e98411;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 280px; 
+    margin-bottom: 10px;  
+}
+.bt:hover{
+    background-color: white;
+    color: black;
+}
+.bt a{
+ text-decoration: none;
+}
+img{
+    padding: 25px;
+    width: 15%;
+    height: 15%;
+}
+.popup-image{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.popup-image span{
+    position:absolute;
+    top: 0; right: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: antiquewhite;
+    cursor: pointer;
+    z-index: 100;
+}
+.popup-image img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 700px;
+    height: 700px;
+    object-fit: cover;
+}
+footer{
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    font-size: 15px;
+    font-family:sans-serif;
+}
+footer a{
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+   
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.active, .menu ul li:hover{
+    background:black;
+    border-radius: 3px;
+}
+.sub-menu{
+    display: none;
+    font-size: small;
+    text-align: center;
+}
+.menu ul li:hover .sub-menu{
+    display: block;
+    position:absolute;
+    background:black;
+    margin-top:15px;
+    margin-left:15px;
+}
+.menu ul li:hover .sub-menu ul{
+   display:block;
+   margin:10px;
+}
+.menu ul li:hover .sub-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+/* Add a design product card */
+.cart{
+    box-shadow:2px white;
+    background: red;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    outline: 3px darkred;
+    outline-offset: 2px;
+}
+/* Add a design product card button */
+.cart .but{
+    border: none;
+    padding: 15px;
+    color:rgb(253, 192, 8);
+    text-align: center;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 5px;
+   justify-content: center;
+   margin-bottom: 5px;
+}
+.cart .but:hover{
+    outline: 2px solid gray;
+    outline-offset: 0;
+    transition: width 2s gray;
+    
+}
+.cart .but a{
+    text-decoration: none;
+}
+
+@media screen and (max-width:700px)
+{
+    nav{
+        flex-direction: column;
+    }
+}
+	
