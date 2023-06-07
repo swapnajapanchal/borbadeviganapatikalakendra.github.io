@@ -24,7 +24,7 @@ header{
 	width:100%;
 }
 nav{
-    display: inline;
+    display:flex;
     background-color: black;
 }
 nav a{
