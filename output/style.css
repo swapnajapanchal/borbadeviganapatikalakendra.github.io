@@ -21,6 +21,7 @@ body{
 }
 header{
     background-color: #ff6e1a;
+	width:100%;
 }
 nav{
     display: flex;
