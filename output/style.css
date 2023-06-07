@@ -33,7 +33,6 @@ nav a{
     text-align: center;
     float: left;
     color: white;
-	display:block;
 }
 #home p span{
     font-weight: bolder;
@@ -237,7 +236,7 @@ footer a{
 
 @media screen and (max-width:1300px)
 {
-   .menu nav a{
+  nav{
         flex-direction: column;
     }
 }
