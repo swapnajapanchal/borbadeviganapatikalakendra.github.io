@@ -249,6 +249,8 @@ footer a{
 	float:none;
 		display:block;
 	}
+}
+@media screen and (max-width:600px){
 	.popup-image{
 	overflow:hidden;
 	}
