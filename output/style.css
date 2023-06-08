@@ -249,5 +249,14 @@ footer a{
 	float:none;
 		display:block;
 	}
+	.popup-image{
+	overflow:hidden;
+	}
+	.popup-image span{
+	overflow:hidden;
+	}
+	.popup-image img{
+	overflow:hidden;
+	}
 }
 	
