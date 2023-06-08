@@ -253,12 +253,16 @@ footer a{
 @media screen and (max-width:600px){
 	.popup-image{
 	overflow:hidden;
+		width:500px;
+		height:500px;
 	}
 	.popup-image span{
 	overflow:hidden;
 	}
 	.popup-image img{
 	overflow:hidden;
+		width:500px;
+		height:500px;
 	}
 }
 	
