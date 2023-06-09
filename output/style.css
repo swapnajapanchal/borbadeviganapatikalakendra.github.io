@@ -245,9 +245,6 @@ footer a{
 	nav ul{
 		flex-direction:column;
 	}
-	nav ul li{
-	          padding:10px;
-	}
 	header{
 	width:300px;
 		height:300px;
