@@ -256,13 +256,17 @@ footer a{
 	overflow:hidden;
 		width:300px;
 		height:300px;
-		justify-content:center;
 	}
 	.popup-image img{
 	overflow:hidden;
 		width:300px;
-		height:300px;
-		item-align:center;
+		height:300px;	
    }
+	
+	.popup-image span{
+	overflow:hidden;
+		width:300px;
+		height:300px;
+	}
 }
 	
