@@ -238,8 +238,9 @@ footer a{
 	nav ul{
 		flex-direction:column;
 	}
-	header{
-	        width:300px;
+	header h1{
+	        background-color:yellow;
+		font-size:bold
 	}
 }
 
