@@ -230,6 +230,15 @@ footer a{
     text-decoration: none;
 }
 
+/*footer*/
+footer{
+  background-color: black;
+  color: white;
+  font-size:smaller;
+  padding-top: 5px;
+  min-height: 30px;
+}
+
 @media screen and (max-width:1200px){
   
 	nav{
